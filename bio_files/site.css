@@ -1,0 +1,19 @@
+#paragrafo1 {
+	font-size: 24px;
+	background-color: green;
+}
+.fundo {
+	background-color: pink;
+	color: blue;
+	text-align: left;
+}
+
+.borda-azul {
+	border: 1px solid;
+	border-color: blue;
+	text-align: justify;
+}	
+body {
+	
+}
+
