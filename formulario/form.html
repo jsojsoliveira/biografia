@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario</title>
+	</head>
+	<body>
+		<form method="" action="">	
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" autocomplete="off" required autofocus>
+			<br><br>
+
+			<label for="senha">Senha:</label>
+			<input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+			<br><br>
+
+			<label for="dt_nasc">Data de Nascimento:</label>
+			<input type="date" id="dt_nasc" name="dt_nasc">
+			<br><br>
+
+			<label for="hr_nasc" >Hora do Nascimento:</label>
+			<input type="time" id="hr_nasc" name="hr_nasc">
+			<br><br>
+
+			<label for="idade">Idade:</label>
+			<input type="number" id="idade" name="idade" value="18" min="18" max="35">
+			<br><br>
+
+			<label for="nota">Nota para página:</label>
+			<input type="range" id="nota" name="nota" value="0" min="0" max="10">
+			<br><br>
+
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email">
+			<br><br>
+
+			<label for="cidade">Cidade:</label>
+			<select id="cidade" name="cidade">
+				<option disabled selected>Selecione uma cidade</option>
+				<optgroup label="RN">
+					<option value="nat">Natal</option>
+					<option value="mos">Mossoró</option>
+				</optgroup>
+				<optgroup label="PE">
+					<option value="rec">Recife</option>
+					<option value="car">Caruarú</option>
+				</optgroup>
+					<option value="bsb">Brasília</option>
+					<option value="poa">Porto Alegre</option>
+			</select>
+			<br><br>
+
+			<fieldset>
+				<legend>Áreas de Interesse</legend>
+				<label>
+					<input type="checkbox" name="esportes" value="esportes" checked>
+					Esportes
+				</label>
+				<label>
+					<input type="checkbox" name="cinema" value="cinema"> 
+					Cinema
+				</label>
+				<label>
+					<input type="checkbox" name="viagens" value="viagens">
+					Viagens
+				</label>
+				<label>
+					<input type="checkbox" name="comida" value="comida">
+					Comida
+				</label>
+			</fieldset>		
+			<br><br>
+
+			<fieldset>
+				<input type="radio" name="sexo" value="Masculino">
+				Masculino
+				<input type="radio" name="sexo" value="feminino">
+				Feminino
+			</fieldset>
+			<br><br>
+
+			<label for="descrição">Descrição:</label>
+			<br>
+			<!-- cols= 30 caracteres rows= 5 linhas -->
+			<textarea id="descrição" name="descrição"
+				cols="30" rows="5" 
+			></textarea>
+			<br><br>
+
+			Qual a sua cidade?
+			<br><br>
+			<select size="1" name="cidade">
+			<br>
+				<option value="NTL" selected>Natal</option>
+				<option value="PAR" selected>Parnamirim</option>
+				<option value="SNG" selected>São Gonçalo</option>
+			</select>
+			<br><br>
+
+			<button type="submit">Enviar</button>
+			<button type="reset">Limpar</button>
+		</form>
+	</body>
+</html>

@@ -1,0 +1,38 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url(fonts/open_Sans/OpenSans-Regular.ttf),url();
+}
+#paragrafo1 {
+	font-size: 24px;
+	background-color: green;
+}
+.fundo {
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+}
+
+.borda-azul {
+	border: 1px solid;
+	border-color: black;
+	text-align: justify;
+}	
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+h2 {
+	font-family: 'Open Sans', sans-serif;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+}
+ol{
+	list-style-type: upper-roman;
+}
+
+#foto {
+	width: 800px;
+	height: 400px;
+	border-radius: 110%;
+	
+}
