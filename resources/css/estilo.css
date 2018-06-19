@@ -42,3 +42,8 @@
     background-color: lightcoral;
 
 }
+
+#container {
+    margin: auto;
+    width: 700px;
+}
